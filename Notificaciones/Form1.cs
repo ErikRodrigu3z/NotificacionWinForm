@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -54,6 +55,11 @@ namespace Notificaciones
             popup.Size = new System.Drawing.Size(400, 400);
             popup.ContentPadding = new Padding(1000);
             popup.Popup();
+
+            SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.toastySound);           
+            simpleSound.Play();
+
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
