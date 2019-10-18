@@ -15,7 +15,7 @@ namespace Notificaciones
     public partial class Form1 : Form
     {
         // Install-Package Tulpep.NotificationWindow
-
+        int interval = 9000;
 
         public Form1()
         {
@@ -24,16 +24,15 @@ namespace Notificaciones
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
-
+            Toasty();
         }
 
         public void Toasty()
         {
             PopupNotifier popup = new PopupNotifier();
             popup.Image = Properties.Resources.toasty;
-            popup.ImageSize = new Size(400, 400);
-            popup.ImagePadding = new Padding(0);
+            popup.ImageSize = new Size(int.Parse(txtImgW.Text),int.Parse(txtImgH.Text));
+            popup.ImagePadding = new Padding(int.Parse(txtImgPadding.Text));
 
             popup.IsRightToLeft = true;
             popup.ShowOptionsButton = false;
@@ -41,18 +40,19 @@ namespace Notificaciones
 
             popup.HeaderHeight = 1;
             popup.HeaderColor = Color.Transparent;
+            popup.GradientPower = 100;
             popup.BodyColor = Color.Transparent;
             popup.BodyColor = Color.Transparent;
 
             popup.ButtonBorderColor = Color.Transparent;
-            popup.AnimationDuration = 200;
-            popup.AnimationInterval = 1;
-            popup.Delay = 3000;
+            popup.AnimationDuration = int.Parse(txtDuracion.Text);
+            popup.AnimationInterval = int.Parse(txtIntervalo.Text);
+            popup.Delay = int.Parse(txtDelay.Text);
             popup.ShowGrip = false;
 
             popup.ShowOptionsButton = false;
             popup.Scroll = true;
-            popup.Size = new System.Drawing.Size(400, 400);
+            popup.Size = new System.Drawing.Size(int.Parse(txtPopupW.Text), int.Parse(txtPopupH.Text));
             popup.ContentPadding = new Padding(1000);
             popup.Popup();
 
@@ -70,7 +70,24 @@ namespace Notificaciones
         private void Form1_Load(object sender, EventArgs e)
         {
             timer1.Enabled = true;
-            timer1.Interval = 9000;
+            timer1.Interval = interval;
+        }
+
+        private void chkEnableTimer_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkEnableTimer.Checked)
+            {
+                timer1.Enabled = true;
+            }
+            else
+            {
+                timer1.Enabled = false;
+            }
+        }
+
+        private void btnTimer_Click(object sender, EventArgs e)
+        {
+            timer1.Interval = int.Parse(txtInterval.Text);
         }
     }
 }

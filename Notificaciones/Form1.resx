@@ -120,4 +120,29 @@
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABMLAAATCwAAAAAAAAAA
+        AABGvXFtRr1x6Ua9ce9GvXHpRr1x6Ua9ceZGvXHnRr1x6Ua9celGvXHpRr1x6Ua9celGvXHpRr1x70a9
+        celGvXFtRr1x5ka9cZ5GvXE2Rr1xLka9cS9HuXBcR7pwSUa9cS1GvXEuRr1xLka9cS5GvXEuRr1xLEa9
+        cTJGvXGdRr1x5ka9cd5GvXEmRr1xAEexbgBHsm4PRrtwxUa6cIdFzXYASppnAAAAAABLpWsAVXBfAEe1
+        bypHt3BpR7lwSUa9cd5GvXHTRr1xGka9cQBIsG0ASadrA0a6cIxGu3CaQv+IAEmiagA//4IASLNvH0e5
+        cIFGu3HhRr1x/0a6cKVGvXHSRr1x00a9cRpGvXEAAAAAAEa7cABGunBKRrtwlETlfgBIsW4PR7hwZ0a6
+        cM1HunCyRrpwlka8cfFGunCQRr1x0ka9cdNGvXEaRr1xAAAAAABGu3AARrpwSka6cJxHt29JRrpwtEa6
+        cMJHuHBdSbBuDEiybgtItG84R7lwKka9cdRGvXHTRr1xGkutbhNJtHBLSbZweki4cLBHu3HrRrxx80e6
+        cN1Js29gS6puEEe6cQBUhGQARr1xAEa9cRtGvXHURr1x0Ue4cFdHunDIR7tx7Em3ca5MsXC5TbJxiky0
+        co5IunHJRrxx9Ue6cMNHtm82R7pwAEa9cQBGvXEbRr1x1Ea9cdBHuXCVRr1x/0i6ccJTqXIsUqlxUFCr
+        cVlRqXE1TLRyUEa8cfVGvXH/R7lwb0bBcgBGvXEARr1xG0a9cdRGvXHSR7hwMEe3cHtHuXDDSrVxrU6x
+        cpVMsnG2TLJxp0i4ccJHunDHR7dwdkiybhJItG8ARr1xAEa9cRtGvXHURr1x00a9cRo083oATKtuEUux
+        cCtIt3B4R7pwsUuycEJLsXAsTaluD1t7ZgFVkGoAAAAAAEa9cQBGvXEbRr1x1Ea9cdNGvXEaRr1xAAAA
+        AABGu3AARrpwSka6cJQ+/5kASKBoAAAAAAAAAAAAAAAAAAAAAABGvXEARr1xG0a9cdRGvXHTRr1xGka9
+        cQAAAAAARrtwAEa6cEpGunClSLFuCEezbgAAAAAAAAAAAAAAAAAAAAAARr1xAEa9cRtGvXHURr1x2ka9
+        cSBGvXEAAAAAAEa6cABHuXBERrxx6Ea4cDxGunAAAAAAAAAAAAAAAAAAAAAAAEa9cQBGvXEhRr1x20a9
+        ceNGvXF/Rr1xGka9cRVGvnEUR7lwLEe5cIpHunAxRr1xFEa9cRVGvXEVRr1xFUa9cRVGvXEaRr1xgEa9
+        ceNGvXFuRr1x4ka9cdVGvXHMRr1xzEa9cctGvXHJRr1xy0a9ccxGvXHMRr1xzEa9ccxGvXHMRr1x1Ua9
+        ceNGvXFuAAAAAAAAAAAx4AAAMcAAADkAAAA4AAAAABwAAAAMAAAADAAAAAwAACAcAAA5/AAAOPwAADj8
+        AAAAAAAAAAAAAA==
+</value>
+  </data>
 </root>
